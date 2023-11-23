@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(168, 3, 3);
+  height: 300px;
+}
+.headerimg img {
+  width: 80%;
+}
+.headerimg {
+  text-align: center;
+}
+.headbtn {
+  display: none;
+}
+.coment5 {
+  background: url(img/1eikamet.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 130px;
+}
+.coment2 {
+  background: url(img/2veri_guncelleme.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 130px;
+}
+.haber {
+  margin-top: 40px;
+  margin-left: 10%;
+  display: flex;
+  gap: 20px;
+}
+.coment3 {
+  background: url(img/3ikamet_sorgu.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 130px;
+}
+.coment4 {
+  background: url(img/liveinturkey.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 130px;
+}
+.comtxt {
+  padding-left: 10px;
+  font-size: 20px;
+  padding-top: 1px;
+  color: rgb(255, 0, 0);
+}
+
+.comtxt h3 {
+  font-size: 40px;
+  color: rgb(76, 74, 74);
+}
+.coment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 300px;
+  gap: 30px;
+}
+.news2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.news1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.list2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+.listnumber {
+  border: 1px solid gray;
+  padding: 20px;
+  height: 100px;
+  color: red;
+}
+.main3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.maintxt {
+  border: 1px solid gray;
+  padding: 25px;
+  width: 400px;
+  background-color: rgb(235, 235, 235);
+}
+.main3 :hover {
+  background-color: rgb(102, 0, 0);
+  color: white;
+}
+.main2 h3 {
+  margin-left: 15%;
+  text-decoration: underline rgb(151, 0, 0);
+}
+.maintxt h2 {
+  text-decoration: underline red;
+}
+.tv {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.police2 img {
+  width: 100px;
+}
+.police1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.police3 {
+  gap: 10px;
+  display: flex;
+
+  margin-top: 10px;
+  padding: 15px;
+}
+.police2 {
+  gap: 10px;
+  display: flex;
+
+  margin-top: 10px;
+  padding: 15px;
+}
+footer {
+  background-color: rgb(133, 0, 0);
+  padding: 20px;
+  color: white;
+}
+.footertxt {
+  text-align: center;
+}
+.footericon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+/*-------phone size--------*/
+@media (max-width: 600px) {
+  .headerimg img {
+    width: 100%;
+  }
+  .coment {
+    display: block;
+    justify-content: center;
+    margin-top: 0px;
+    gap: 30px;
+  }
+  .coment3 {
+    width: 100%;
+  }
+  .coment4 {
+    width: 100%;
+  }
+  .coment2 {
+    width: 100%;
+  }
+  .coment5 {
+    width: 100%;
+  }
+  .comtxt {
+    padding-left: 10px;
+    font-size: 40px;
+    padding-top: 10px;
+    color: rgb(255, 0, 0);
+  }
+  .comtxt h3 {
+    font-size: 30px;
+  }
+  .haber {
+    margin-top: 40px;
+    margin-left: 5%;
+    display: flex;
+    gap: 20px;
+  }
+  .coment1 {
+    background: url(img/1eikamet.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 130px;
+  }
+  .comtxt {
+    display: flex;
+    justify-content: space-between;
+  }
+  .headbtn {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+  }
+  .headbtn button {
+    padding: 14px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+  }
+  .news2 img {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0px;
+    flex-wrap: wrap;
+  }
+  .news {
+    padding-top: -200px;
+  }
+  .newstxt p {
+    font-size: 15px;
+  }
+  .newstxt {
+    margin-left: 10px;
+  }
+  .list2 {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .maintxt {
+    border: 1px solid gray;
+    padding: 25px;
+    width: 90%;
+  }
+  .main2 h3 {
+    margin-left: 5%;
+    text-decoration: underline rgb(151, 0, 0);
+  }
+  .tv img {
+    width: 100%;
+  }
+  .police2 img {
+    width: 60px;
+  }
+  .police1 {
+    display: block;
+    justify-content: center;
+    gap: 200px;
+  }
+  .police2 {
+    gap: 10px;
+    display: flex;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+  }
+  .police3 {
+    gap: 10px;
+    display: flex;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+  }
+  .police3 img {
+    width: 50px;
+  }
+}
